@@ -41,15 +41,10 @@ Standard topic models recover the dominant topics, and existing extensions add e
   </picture>
 </p>
 
-## 📊 Main findings
-
-- On a synthetic benchmark with known ground truth, DRIFT outperforms standard static, dynamic and constrained baselines on rare-trend identification, topic-content quality and temporal recovery.
-- Its advantage in identification and temporal recovery holds in two settings where the temporal prevalence patterns differ from the model's assumptions.
-- In a case study on YouTube comments from Finnish mental-health-related vlog channels, where no ground truth is available, DRIFT recovers mental-health discussion trends in a qualitative evaluation.
 
 ## 🔒 Data and privacy
 
-The real-data case study uses public YouTube comments from Finnish mental-health-related vlog channels. We do not share the comments, user names or any other individual-level information.
+The real-data case study uses YouTube comments from Finnish mental-health-related vlog channels. We do not share the dateset.
 
 ## 📄 Citation
 
