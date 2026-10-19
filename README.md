@@ -62,13 +62,6 @@ pip install -r requirements.txt
 python generate_synthetic_data.py --out_csv synthetic_data.csv --out_params_json synthetic_params.json
 ```
 
-### 2. Fit DRIFT on the synthetic benchmark
-
-```bash
-python fit_synthetic.py --csv synthetic_data.csv --params synthetic_params.json
-```
-
-This fits DRIFT with variational EM.
 
 ## 🧪 Try DRIFT on your own data
 
