@@ -36,8 +36,8 @@ Standard topic models recover the dominant topics, and existing extensions add e
 
 <p align="center">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="assets/drift_overview_dark.svg">
-    <img src="assets/drift_overview_light.svg" width="100%" alt="DRIFT at a glance: inputs, the four parts of the model, and outputs">
+    <source media="(prefers-color-scheme: dark)" srcset="drift_overview_dark.svg">
+    <img src="drift_overview_light.svg" width="100%" alt="DRIFT at a glance: inputs, the four parts of the model, and outputs">
   </picture>
 </p>
 
