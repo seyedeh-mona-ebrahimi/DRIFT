@@ -42,12 +42,14 @@ Standard topic models recover the dominant topics, and existing extensions add e
 </p>
 
 
+
+> [!NOTE]
+> This repository is still being updated. The rest of the code will be added soon.
+
+
 ## 🔒 Data and privacy
 
 The real-data case study uses YouTube comments from Finnish mental-health-related vlog channels. We do not share the dateset.
-
-> [!NOTE]
-> This repository is still being updated. The remaining experiment scripts will be added soon.
 
 ## ⚙️ Requirements
 
