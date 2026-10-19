@@ -46,6 +46,9 @@ Standard topic models recover the dominant topics, and existing extensions add e
 
 The real-data case study uses YouTube comments from Finnish mental-health-related vlog channels. We do not share the dateset.
 
+> [!NOTE]
+> This repository is still being updated. The remaining experiment scripts will be added soon.
+
 ## ⚙️ Requirements
 
 Python 3.11 or newer, with the packages listed in `requirements.txt`:
@@ -77,7 +80,7 @@ The model is fitted with `fit_constrained_stm_vi` in `drift_model.py`. The two c
 
 ## 📄 Citation
 
-If you find this work useful, please cite:
+please cite the work if it is inetersting to you:
 
 ```bibtex
 @article{ebrahimi2026drift,
@@ -91,4 +94,4 @@ If you find this work useful, please cite:
 
 ## 📬 Contact
 
-Questions and feedback are welcome. Open an issue or email Mona Ebrahimi (seyedeh.ebrahimi@tuni.fi).
+Questions and feedback are welcome. Email Mona Ebrahimi (seyedeh.ebrahimi@tuni.fi).
