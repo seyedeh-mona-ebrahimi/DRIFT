@@ -34,14 +34,12 @@ Standard topic models recover the dominant topics, and existing extensions add e
 
 ## 🗺️ DRIFT at a glance
 
-```mermaid
-flowchart LR
-    A["📝 Time-stamped documents"] --> D(("🌊 DRIFT"))
-    B["🌱 One domain seed list"] --> D
-    C["📅 Document covariates"] --> D
-    D --> E["📈 How often each rare topic appears over time"]
-    D --> F["🔤 How the wording of each topic changes over time"]
-```
+<p align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="assets/drift_overview_dark.svg">
+    <img src="assets/drift_overview_light.svg" width="100%" alt="DRIFT at a glance: inputs, the four parts of the model, and outputs">
+  </picture>
+</p>
 
 ## 📊 Main findings
 
