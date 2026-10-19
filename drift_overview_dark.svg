@@ -1,0 +1,65 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 466" width="1000" height="466" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" role="img" aria-label="DRIFT at a glance: inputs, model components and outputs">
+<defs><marker id="arr" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#6e7681"/></marker></defs>
+<text x="150" y="26" font-size="12" font-weight="600" letter-spacing="2" fill="#8b949e" text-anchor="middle">INPUTS</text>
+<text x="500" y="26" font-size="12" font-weight="600" letter-spacing="2" fill="#8b949e" text-anchor="middle">MODEL</text>
+<text x="850" y="26" font-size="12" font-weight="600" letter-spacing="2" fill="#8b949e" text-anchor="middle">OUTPUTS</text>
+<rect x="20" y="44" width="260" height="122" rx="12" fill="#0f2236" stroke="#2f6fbf" stroke-width="1.5"/>
+<text x="150" y="92.0" font-size="16" fill="#79c0ff" font-weight="600" text-anchor="middle">Documents over time</text>
+<text x="150" y="120.0" font-size="14" fill="#9198a1" font-weight="normal" text-anchor="middle">time-stamped texts,</text>
+<text x="150" y="138.9" font-size="14" fill="#9198a1" font-weight="normal" text-anchor="middle">grouped into <tspan font-family="'Times New Roman', Times, 'DejaVu Serif', serif" font-style="italic">T</tspan> time bins</text>
+<line x1="282" y1="105.0" x2="316" y2="105.0" stroke="#6e7681" stroke-width="1.8" marker-end="url(#arr)"/>
+<rect x="20" y="185" width="260" height="122" rx="12" fill="#0f2236" stroke="#2f6fbf" stroke-width="1.5"/>
+<text x="150" y="233.0" font-size="16" fill="#79c0ff" font-weight="600" text-anchor="middle">Domain seed list <tspan font-family="'Times New Roman', Times, 'DejaVu Serif', serif" font-style="italic">S</tspan></text>
+<text x="150" y="261.0" font-size="14" fill="#9198a1" font-weight="normal" text-anchor="middle">one list for the whole domain,</text>
+<text x="150" y="279.9" font-size="14" fill="#9198a1" font-weight="normal" text-anchor="middle">not split into topics</text>
+<line x1="282" y1="246.0" x2="316" y2="246.0" stroke="#6e7681" stroke-width="1.8" marker-end="url(#arr)"/>
+<rect x="20" y="326" width="260" height="122" rx="12" fill="#0f2236" stroke="#2f6fbf" stroke-width="1.5"/>
+<text x="150" y="374.0" font-size="16" fill="#79c0ff" font-weight="600" text-anchor="middle">Document covariates</text>
+<text x="150" y="402.0" font-size="14" fill="#9198a1" font-weight="normal" text-anchor="middle">for example, features</text>
+<text x="150" y="420.9" font-size="14" fill="#9198a1" font-weight="normal" text-anchor="middle">of time</text>
+<line x1="282" y1="387.0" x2="316" y2="387.0" stroke="#6e7681" stroke-width="1.8" marker-end="url(#arr)"/>
+<rect x="320" y="44" width="360" height="404" rx="14" fill="#1c1530" stroke="#6e4fc4" stroke-width="1.8"/>
+<text x="500" y="80.0" font-size="22" fill="#c9a8ff" font-weight="700" text-anchor="middle">DRIFT</text>
+<text x="500" y="103" font-size="13.5" fill="#9198a1" text-anchor="middle"><tspan font-family="'Times New Roman', Times, 'DejaVu Serif', serif" font-style="italic">K</tspan> topics, <tspan font-family="'Times New Roman', Times, 'DejaVu Serif', serif" font-style="italic">K</tspan><tspan baseline-shift="sub" font-size="9.5">min</tspan> of them minority topics</text>
+<text x="338" y="132" font-size="11" font-weight="700" letter-spacing="1.5" fill="#b392f0">TOPIC PREVALENCE</text>
+<rect x="334" y="141" width="150" height="110" rx="10" fill="#161b22" stroke="#3d2f66" stroke-width="1.3"/>
+<text x="409.0" y="169.0" font-size="14.5" fill="#e6edf3" font-weight="600" text-anchor="middle">Covariate prior</text>
+<text x="409.0" y="193.0" font-size="12.5" fill="#9198a1" font-weight="normal" text-anchor="middle">logistic-normal prior</text>
+<text x="409.0" y="210.0" font-size="12.5" fill="#9198a1" font-weight="normal" text-anchor="middle">driven by the</text>
+<text x="409.0" y="227.0" font-size="12.5" fill="#9198a1" font-weight="normal" text-anchor="middle">covariates</text>
+<rect x="516" y="141" width="150" height="110" rx="10" fill="#2a1f0a" stroke="#9e6a03" stroke-width="1.3"/>
+<text x="591.0" y="169.0" font-size="14.5" fill="#e3b341" font-weight="600" text-anchor="middle">Down-weighting <tspan font-family="'Times New Roman', Times, 'DejaVu Serif', serif" font-style="italic">a</tspan></text>
+<text x="591.0" y="193.0" font-size="12.5" fill="#9198a1" font-weight="normal" text-anchor="middle">lower minority weight</text>
+<text x="591.0" y="210.0" font-size="12.5" fill="#9198a1" font-weight="normal" text-anchor="middle">in documents without</text>
+<text x="591.0" y="227.0" font-size="12.5" fill="#9198a1" font-weight="normal" text-anchor="middle">seed words</text>
+<line x1="487" y1="196.0" x2="512" y2="196.0" stroke="#6e7681" stroke-width="1.5" marker-end="url(#arr)"/>
+<text x="338" y="283" font-size="11" font-weight="700" letter-spacing="1.5" fill="#b392f0">TOPIC CONTENT</text>
+<rect x="334" y="292" width="150" height="110" rx="10" fill="#161b22" stroke="#3d2f66" stroke-width="1.3"/>
+<text x="409.0" y="320.0" font-size="14.5" fill="#e6edf3" font-weight="600" text-anchor="middle">Random walk</text>
+<text x="409.0" y="344.0" font-size="12.5" fill="#9198a1" font-weight="normal" text-anchor="middle">topic-word logits</text>
+<text x="409.0" y="361.0" font-size="12.5" fill="#9198a1" font-weight="normal" text-anchor="middle">evolve smoothly</text>
+<text x="409.0" y="378.0" font-size="12.5" fill="#9198a1" font-weight="normal" text-anchor="middle">between time bins</text>
+<rect x="516" y="292" width="150" height="110" rx="10" fill="#2a1f0a" stroke="#9e6a03" stroke-width="1.3"/>
+<text x="591.0" y="320.0" font-size="14.5" fill="#e3b341" font-weight="600" text-anchor="middle">Seed-mass floor <tspan font-family="'Times New Roman', Times, 'DejaVu Serif', serif" font-style="italic">τ</tspan></text>
+<text x="591.0" y="344.0" font-size="12.5" fill="#9198a1" font-weight="normal" text-anchor="middle">minority topics keep</text>
+<text x="591.0" y="361.0" font-size="12.5" fill="#9198a1" font-weight="normal" text-anchor="middle">at least <tspan font-family="'Times New Roman', Times, 'DejaVu Serif', serif" font-style="italic">τ</tspan> of their</text>
+<text x="591.0" y="378.0" font-size="12.5" fill="#9198a1" font-weight="normal" text-anchor="middle">mass on the seed list</text>
+<line x1="487" y1="347.0" x2="512" y2="347.0" stroke="#6e7681" stroke-width="1.5" marker-end="url(#arr)"/>
+<text x="500" y="422.0" font-size="12" fill="#9198a1" font-weight="normal" text-anchor="middle">both constraints are built in by reparameterization,</text>
+<text x="500" y="438.0" font-size="12" fill="#9198a1" font-weight="normal" text-anchor="middle">and the model is fitted with variational EM</text>
+<line x1="682" y1="105.0" x2="716" y2="105.0" stroke="#6e7681" stroke-width="1.8" marker-end="url(#arr)"/>
+<rect x="720" y="44" width="260" height="122" rx="12" fill="#0e2618" stroke="#2e8b4f" stroke-width="1.5"/>
+<text x="850" y="92.0" font-size="16" fill="#56d364" font-weight="600" text-anchor="middle">Prevalence over time</text>
+<text x="850" y="120.0" font-size="14" fill="#9198a1" font-weight="normal" text-anchor="middle">how often each minority</text>
+<text x="850" y="138.9" font-size="14" fill="#9198a1" font-weight="normal" text-anchor="middle">topic appears in each bin</text>
+<line x1="682" y1="246.0" x2="716" y2="246.0" stroke="#6e7681" stroke-width="1.8" marker-end="url(#arr)"/>
+<rect x="720" y="185" width="260" height="122" rx="12" fill="#0e2618" stroke="#2e8b4f" stroke-width="1.5"/>
+<text x="850" y="233.0" font-size="16" fill="#56d364" font-weight="600" text-anchor="middle">Topic content over time</text>
+<text x="850" y="261.0" font-size="14" fill="#9198a1" font-weight="normal" text-anchor="middle">how the wording of</text>
+<text x="850" y="279.9" font-size="14" fill="#9198a1" font-weight="normal" text-anchor="middle">each topic changes</text>
+<line x1="682" y1="387.0" x2="716" y2="387.0" stroke="#6e7681" stroke-width="1.8" marker-end="url(#arr)"/>
+<rect x="720" y="326" width="260" height="122" rx="12" fill="#0e2618" stroke="#2e8b4f" stroke-width="1.5"/>
+<text x="850" y="374.0" font-size="16" fill="#56d364" font-weight="600" text-anchor="middle">Document-topic proportions</text>
+<text x="850" y="402.0" font-size="14" fill="#9198a1" font-weight="normal" text-anchor="middle">which topics each</text>
+<text x="850" y="420.9" font-size="14" fill="#9198a1" font-weight="normal" text-anchor="middle">document carries</text>
+</svg>
