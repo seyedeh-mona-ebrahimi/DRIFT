@@ -10,20 +10,6 @@ import torch
 import csv
 
 
-# def initialize_beta_partitioned(beta, tau, r, mh_topics,
-#                                   boost=1.0, suppress=-0.5):
-#     for k in mh_topics:
-#         own_seeds   = np.where(r[k] > 0)[0]
-#         other_seeds = np.where(
-#             (r[mh_topics, :].sum(axis=0) > 0) & (r[k] == 0)
-#         )[0]
-#         if len(own_seeds) > 0:
-#             beta[k, :, own_seeds]   += boost
-#         if len(other_seeds) > 0 and suppress != 0.0:
-#             beta[k, :, other_seeds] += suppress
-#     return beta
-
-
 def diagnose_topic_diversity(phi, mh_topics):
     from itertools import combinations
     results = {}
