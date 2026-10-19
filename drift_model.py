@@ -657,13 +657,6 @@ def fit_constrained_stm_vi(
         mh_topics = list(mh_topics_fixed)
     else:
         mh_topics = np.where(tau > 0)[0].tolist()
-
-    seed_word_ids = np.where(r[mh_topics].sum(axis=0) > 0)[0]
-    if len(mh_topics) > 0 and len(seed_word_ids) > 0:
-        for k in mh_topics:
-            subset_size = int(len(seed_word_ids) * 0.5)
-            random_subset = rng.choice(seed_word_ids, size=subset_size, replace=False)
-            beta[k, :, random_subset] += 3.0
     elbo_traj = []
 
     gamma_docs = []
