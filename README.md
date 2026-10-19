@@ -46,6 +46,42 @@ Standard topic models recover the dominant topics, and existing extensions add e
 
 The real-data case study uses YouTube comments from Finnish mental-health-related vlog channels. We do not share the dateset.
 
+## ⚙️ Requirements
+
+Python 3.11 or newer, with the packages listed in `requirements.txt`:
+
+```bash
+pip install -r requirements.txt
+```
+
+## 🚀 Usage
+
+### 1. Generate the synthetic benchmark
+
+```bash
+python generate_synthetic_data.py --out_csv synthetic_data.csv --out_params_json synthetic_params.json
+```
+
+### 2. Fit DRIFT on the synthetic benchmark
+
+```bash
+python fit_synthetic.py --csv synthetic_data.csv --params synthetic_params.json
+```
+
+This fits DRIFT with variational EM.
+
+## 🧪 Try DRIFT on your own data
+
+To fit DRIFT to your own corpus, you need:
+
+- **Documents with time stamps**, tokenized and grouped into time bins (for example, months).
+- **Document covariates**, such as features of time, so that topic prevalence can change over time.
+- **One seed list** for the domain you are interested in. The seed words are not assigned to topics.
+- **The number of topics K**, and how many of them are minority topics (K_min).
+
+The model is fitted with `fit_constrained_stm_vi` in `drift_model.py`. The two constraints follow the paper.
+
+
 ## 📄 Citation
 
 If you find this work useful, please cite:
