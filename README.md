@@ -16,6 +16,8 @@
 </p>
 
 ---
+> [!NOTE]
+> This repository is still being updated. The rest of the code will be added soon.
 
 ## 🔍 Why DRIFT?
 
@@ -41,10 +43,6 @@ Standard topic models recover the dominant topics, and existing extensions add e
   </picture>
 </p>
 
-
-
-> [!NOTE]
-> This repository is still being updated. The rest of the code will be added soon.
 
 
 ## 🔒 Data and privacy
