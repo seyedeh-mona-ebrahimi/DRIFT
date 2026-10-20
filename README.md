@@ -79,21 +79,6 @@ To fit DRIFT to your own corpus, you need:
 
 The model is fitted with `fit_constrained_stm_vi` in `drift_model.py`. The two constraints follow the paper.
 
-
-## 📄 Citation
-
-please cite the work if it is inetersting to you:
-
-```bibtex
-@article{ebrahimi2026drift,
-  title   = {{DRIFT}: Constrained Dynamic Topic Models for Weak-Signal Trend Discovery},
-  author  = {Ebrahimi, Seyedeh Fatemeh and Peltonen, Jaakko},
-  journal = {Transactions on Machine Learning Research},
-  issn    = {2835-8856},
-  year    = {2026}
-}
-```
-
 ## 📬 Contact
 
 Questions and feedback are welcome. Email Mona Ebrahimi (seyedeh.ebrahimi@tuni.fi).
