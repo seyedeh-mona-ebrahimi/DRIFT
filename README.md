@@ -17,7 +17,7 @@
 
 ---
 > [!NOTE]
-> This repository is still being updated. The rest of the code will be added soon.
+> The rest of the code is coming soon! The repository is being updated following our TMLR paper acceptance.
 
 ## 🔍 Why DRIFT?
 
